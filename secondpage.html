@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Page</title>
+    <title>Our Artists</title>
     <style>
         body {
             background-color: black;
@@ -23,17 +23,22 @@
             font-size: 20px;
         }
 
+        .right-text {
+            text-align: right;
+            padding-right: 150px;
+        }
 
         img {
-            width: 500px;
-            height: 375px;
+            max-width: 100%; /* Ensure the image is responsive */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
 
 <body>
-    <p> This is Meg, an award winning artist who has mastered the Traditional style of tattoo's.</p>
-    <img src="artist.jpg" alt="Female Tatto Artist">
+    <h1>TattooTribe<br> Our Artists:</h1>
+    <p class="right-text"> This is Meg, an award winning artist who has mastered the Traditional style of tattoo's.</p>
+    <img src="artist.jpg" alt="Female Tatto Artist"> <br>
     <a href="index.html">Click here to go back!</a>
 </body>
 
