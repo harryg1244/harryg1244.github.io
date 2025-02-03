@@ -15,8 +15,16 @@
             background-repeat: no-repeat;
             /* Prevent the background from repeating */
             color: white;
-            height: 100%;
+            /* Set all text to white */
+            padding-right: 20px;
+            /* Add padding to the right */
+            margin: 0;
+            /* Remove default margin */
+            min-height: 100vh;
+            font-size: 18px;
+            /* Ensure the body takes at least the full viewport height */
         }
+
 
         h1 {
             text-align: right;
@@ -33,6 +41,13 @@
             text-align: right;
             padding-right: 150px;
         }
+
+        a {
+            color: white;
+            /* Set link color to white */
+            text-decoration: none;
+            /* Remove underline from links */
+        }
     </style>
 </head>
 
@@ -44,8 +59,9 @@
         the chosen artists! Each artist has their own profile
         showcasing their<br>portfolio, style, and availability, making
         it easy fulfill the perfect tattoo vision.</p>
-    <p class="large-text">To explore various artists, <b>Click Here!</b></p>
-    <p class="large-text">To explore nearby conventions and events, <b>Click Here!</b> </p>
+    <p class="large-text">To explore various artists, <b><a href="firstpage.html">Click Here!</a></b></p>
+    <p class="large-text">To explore nearby conventions and events, <b><a href="secondpage.html">Click Here!</a></b>
+    </p>
 
 </body>
 
